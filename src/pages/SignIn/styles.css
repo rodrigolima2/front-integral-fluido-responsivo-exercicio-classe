@@ -1,0 +1,64 @@
+main {
+  display: flex;
+  height: 100vh;
+}
+
+main div {
+  width: 50%;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-right form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.container-right form h1 {
+  margin: 0 0 32px 0;
+}
+
+.btn-login {
+  margin-top: 72px;
+}
+
+.register-link {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-top: 96px;
+}
+
+.register-link span {
+  margin-right: 10px;
+}
+
+@media(max-width: 800px){
+  .img{
+    width: 50%;
+  }
+
+  .container-right{
+    width: 50%;
+  }
+
+  .container-right form{
+    width: 200px;
+  }
+}
+
+@media(max-width: 430px){
+  .img{
+    width: 0;
+  }
+
+  .container-right{
+    width: 100%;
+  }
+}
